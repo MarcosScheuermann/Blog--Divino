@@ -1,0 +1,78 @@
+.container img{
+    width: 600px;
+    height: 300px;
+}
+
+.footer-base{
+    height: 25%;
+}
+logo-redes{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+footer p{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+footer h1{
+    font-size: 40px;
+    text-align: center;
+}
+footer h6{
+    margin-left: 10px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+footer h5{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.redes-divino p{
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    margin: 0;
+}
+.base-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+footer-base{
+    font-size: 15px;
+}
+.logo-divino img:hover{
+       transform: scale(1.1);
+}
+
+@media screen and (max-width:592px){
+    footer p{
+        font-size: 20px;
+    }
+    footer h1{
+        font-size: 20px;
+    }
+    footer h5{
+        font-size: 10px;
+    }
+    .logo-divino img{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
